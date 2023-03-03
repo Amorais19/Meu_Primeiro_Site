@@ -1,0 +1,12 @@
+h1{
+    color:rgb(50, 107, 89);
+}
+h1#page1{
+    color:cadetblue;
+}
+h1#page2{
+    color: darkcyan;
+}
+body ul li{
+    color:darkslategrey ;
+}
