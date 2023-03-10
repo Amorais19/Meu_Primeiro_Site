@@ -1,5 +1,6 @@
 h1{
     color:rgb(50, 107, 89);
+    border: 0.5rem dotted rgb(50,107,89);
 }
 h1#page1{
     color:cadetblue;
@@ -7,6 +8,23 @@ h1#page1{
 h1#page2{
     color: darkcyan;
 }
+h2, h3, h4, h5, h6{
+    display: none;
+}
 body ul li{
     color:darkslategrey ;
+}
+p{
+    text-decoration: underline rgb(79, 130, 160) double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: darkslateblue;
+    font: cursive small-caps bold 2rem monospace;
+    text-shadow: 0.2 0.2 0.3 rem black, 0 0 1rem rgb(59, 150, 153), 0 0 2rem rgb(31, 119, 104);
 }
