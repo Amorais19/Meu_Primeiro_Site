@@ -24,7 +24,68 @@ p.maiusculo{
     letter-spacing: 1rem;
     line-height: 2rem;
     word-spacing: 2rem;
-    color: darkslateblue;
+    color: rgb(79, 130, 160) ;
     font: cursive small-caps bold 2rem monospace;
     text-shadow: 0.2 0.2 0.3 rem black, 0 0 1rem rgb(59, 150, 153), 0 0 2rem rgb(31, 119, 104);
+}
+a:link, a:visited,a:active{
+    text-decoration: none;
+    color:rgb(79, 130, 160);
+}
+a:hover{
+    color:rgb(59, 150, 153);
+}
+footer{
+    clear: both;
+    background:rgb(50, 107, 89) url("../img/haikyu3.jpg") no-repeat left top;
+    height: 1080px;
+}
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: rgb(79, 130, 160);
+    color: white;
+    border: 0.2rem solid black;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+h1#page1{
+    color:rgb(50, 107, 89);
+    border: 0.3rem dashed rgb(31, 119, 104);
+}
+img{
+    width: 20rem;
+}
+ul{
+    list-style-type: square;
+}
+h1.page2{
+    color: rgb(50, 107, 89);
+    border: 1rem groove rgb(31, 119, 104);
+    border-radius: 0.7rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img{
+    float: left
+}
+main.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+main.flexbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article{
+    background-color: rgb(79, 130, 160);
+    margin: 1rem;
+    padding: 2rem;
 }
